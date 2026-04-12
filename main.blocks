@@ -1,0 +1,9 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="%Rp@C#q6HGK.pmN)bff4">Mouse</variable><variable type="KIND_SpriteKind" id="FR54k46sUs/sMFk,7h}g">Card</variable><variable type="KIND_SpriteKind" id="y6xxy2N^o7G[B}B=k(F.">Player</variable><variable type="KIND_SpriteKind" id="4$$|F}umr,iaUkGi}Sz0">Projectile</variable><variable type="KIND_SpriteKind" id="}q?Si/^g#7TV}W[=$GuN">Food</variable><variable type="KIND_SpriteKind" id="_av+bWW74!}gqy9)1w6j">Enemy</variable><variable type="KIND_SpriteKind" id="#;[NQ?mT;_D_NlwCBL8A">StatusBar</variable><variable id=":2$Q*WX04U}p*NuY#FJ(">hand</variable><variable id="4uNSiap03tUVEaR-t/3~">textPosition</variable><variable id="qN6HBE.%2y,LA_slvejR">returnImage</variable><variable id="80RCwz;~-CRFU^zboIl}">i</variable><variable id="9/*/0h+8}WD35R#^osZ@">elementIcons</variable><variable id="##*_xp;SUrywW0H+r_A;">mouseSprite</variable><variable id="mzvlvgl0naW7~4q]/];,">value</variable><variable id="$J4K-Qu8%K3zWAtm4;|,">cardSprite</variable><variable id="td:s_FTmZIBCrE3)El!+">myImage</variable><variable id="EKO^wL}^+29mmyPz;y1!">index2</variable><variable id="K64:t09~=MGOgUs^Jn=J">discard</variable><variable id="a{t}Nt/NUG@=6A,r70Hp">list</variable><variable id="bl)r,MDiZZmoXIr5zy|B">switchingblocks</variable><variable id="8tHXRLazw1[G[L:dc]Mu">index</variable><variable id="aK9gcJfefZ/sJaR[%YTs">commonCards</variable><variable id="nX:`)M~1D`X42(7jgjH:">deck</variable></variables><comment id="|hJ;Aavt8;;]Fh^A6E`w" x="20" y="3851" w="168" h="120">
+Code References
+
+Elements
+</comment><comment id="{V+yGVVzO}u,ZTNb.oG)" x="233" y="3851" w="160" h="120">
+Effects
+</comment><comment id="+bxJp(M/^qb:NZDoP=|*" x="438" y="3851" w="160" h="120">
+Rarities
+</comment><block type="function_definition" id="8,hx;3PZ0JASo/OWZ)J6" x="0" y="0"><mutation name="drawHand" functionid="Qml5(!TZXfsUW0lg)wT/"></mutation><field name="function_name">drawHand</field></block></xml>
