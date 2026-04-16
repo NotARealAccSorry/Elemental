@@ -101,6 +101,18 @@ class Card {
         this.image = i
     }
 }
+class Enemy {
+    hp: number
+    defense: number
+    enemyEffect: number
+    image: Image
+    constructor (a: number, b: number, c:number, d: Image){
+        this.hp=a
+        this.defense=b
+        this.enemyEffect=c
+        this.image=d
+    }
+}
 // Cards Setup
 let commonCards = [
 
@@ -200,4 +212,18 @@ mouseSprite = sprites.create(img`
 mouseSprite.z = 10
 browserEvents.setCursorVisible(false)
 drawHand()
+let myEnemySprite: Sprite
+function readCard(a: Card,b: Enemy) {
+    sprites.changeDataNumberBy(myEnemySprite, "Defense", 0 - a.damage)
 
+    if (sprites.readDataNumber(myEnemySprite,"Defense") > 0) {
+        sprites.changeDataNumberBy(myEnemySprite,"Hp",)
+    }
+   sprites.setDataNumber(myEnemySprite, "enemyEffect", a.enemyEffect)
+}
+function createEnemy(a: Enemy,b: number){
+    let myEnemySprite = sprites.create(a.image, SpriteKind.Player)
+    sprites.setDataNumber(myEnemySprite, "Hp", a.hp)    
+    sprites.setDataNumber(myEnemySprite, "Defense", a.defense)
+    sprites.setDataNumber(myEnemySprite,"enemyEffect",a.enemyEffect)
+}
