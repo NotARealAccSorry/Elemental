@@ -514,6 +514,27 @@ ccc999ccc999ccc999ccc999ccc999ccc99
 . . . . . . . . . . . 3 . . . . 
 . . . . . . . . . . . . . . . . 
 `;
+            case "image26":
+            case "Storm":return img`
+eeeeeeeeeeeeeeeeeeee
+eedddeeeddeddddedeee
+eddddddddddddddedeee
+edddd9ddddddd9dddeee
+eed99ddd9dddd99ddeee
+eeedddddd99dddddeeee
+eeeee75edddeddddeeee
+eeeee75e75eee75eeeee
+eeee75ee75eeee75eeee
+eeee75eee75eee75eeee
+eee75eeeee75ee75eeee
+eee75ee5ee75ee75eeee
+eeee75eee75eeee75eee
+eeee75eee75eeee75eee
+ee5ee75e75ee5e75e5ee
+eeeee75ee75ee75eeeee
+e5e77577757e775e7e5e
+eeee77ee77eee777eeee
+`;
         }
         return null;
     })
