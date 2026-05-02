@@ -124,11 +124,6 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "myImage0"
     },
-    "image26": {
-        "data": "hwQUABIAAADu7u7u7u7u7u4AAADu3e7u7u7u7uUAAADe3e3u7u7u5e4AAADe3dnu7nfu7ucAAADe3dnud1V37ncAAADund13Ve5Vd3UAAADu3d1V7u7uVecAAADu3d3u7l7u7ucAAADe3dl95+7u53cAAADe3Z1dde53dXUAAADu3Z3tXndVXucAAADe3d3u7lXu7u4AAADe3d3t7u7u5ecAAADendl97u7ufncAAADe3dldd3fuV3UAAADu3t3tVVV35X4AAADe3e3u7u5V7ucAAADu7u7u7u7u5e4AAADu7u7u7u7u7uUAAADu7u7u7u7u7u4AAAA=",
-        "mimeType": "image/x-mkcd-f4",
-        "displayName": "Storm"
-    },
     "anim1": {
         "namespace": "myAnimations",
         "id": "anim1",
